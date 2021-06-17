@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.body{
+	height: 800px;
+	width: 1917px;
+	justify-content: center;
+	display: flex;
+}
+
+.center{
+	height: 750px;
+	width: 1000px;
+	justify-content: center;
+	display: flex;
+	padding-top: 50px;
+}
+
+/*=============== searchline ==============*/
+
+.search{
+	height: 600px;
+	width: 485px;
+}
+
+.searchline{
+	height: 40px;
+	width: 500px;
+}
+
+#searchline{
+	height: 30px;
+	width: 440px;
+	font-size: 21px;
+	border: 3px solid black;
+	outline: none;
+	transition: .3s;
+	border-radius: 10px;
+	padding-right: 30px;
+	padding-left: 10px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.fa-search{
+	font-size: 22px;
+	color: black;
+	margin-left: -50px;
+	padding-left: 8px;
+	padding-top: 7px;
+	height: 30px;
+	border-left: 3px solid black;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.searchline:hover .fa-search{
+	color: #9ad3ffb3;
+	border-color: #9ad3ffb3;
+}
+
+.searchline:hover #searchline{
+	border-color: #9ad3ffb3;
+	box-shadow: 1 1 1 black;
+}
+
+/*=============== searchout ===========*/
+
+#searchout{
+	height: 515px;
+	width: 440px;
+	overflow: hidden;
+}
+
+.outp{
+	height: 45px;
+	width: 440px;
+}
+
+.out{
+	border: 1px solid red;
+	border-radius: 7px;
+	height: 35px;
+	width: 436px;
+	line-height: 35px; 
+	margin-left: -442px;
+	cursor: pointer;
+}
+
+.out a{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+/*=============== foother =============*/
+
+.footer a{
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+}
+
+.footer{
+	height: 50px;
+	width: 1917px;
+	justify-content: center;
+	display: flex;
+	line-height: 50px;
+}
