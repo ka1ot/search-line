@@ -1,0 +1,40 @@
+В папке JS в основном файле JS компилися всё ок, вот ток объем конечно...
+в ообщем можно пихнуть всё в массивы и по массивам делать переборку, через циклы
+
+например 
+
+  function hidelines(lines){
+		
+		switch(lines){
+			case 1:
+				ou2.style.display="none";
+				ou3.style.display="none";
+				ou4.style.display="none";
+				ou5.style.display="none";
+				ou6.style.display="none";
+				ou7.style.display="none";
+				ou8.style.display="none";
+				ou9.style.display="none";
+				ou10.style.display="none";
+			break;
+			case 2:
+				ou3.style.display="none";
+				ou4.style.display="none";
+				ou5.style.display="none";
+				ou6.style.display="none";
+				ou7.style.display="none";
+				ou8.style.display="none";
+				ou9.style.display="none";
+				ou10.style.display="none";
+			break;
+
+сокращается +/- до такого вида 
+
+  function hidelines(lines){
+		var line = [ou2,ou3,ou4,ou5,ou6,ou7,ou8,ou9,ou10];
+    for(i = lines-1; i <= line.height;i++){
+      line[i].style.display='none';
+    }
+	
+
+
